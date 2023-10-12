@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISUALIZE SPACE MISSION</title>
+    <style>
+        /* Reset default margin and padding for the body */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: poppins;
+            background-color: black;
+        }
+
+        /* Create a container for the video and content */
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Style the video to cover the entire container */
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Style the content on top of the video */
+        .content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 20px;
+            text-align: center;
+    
+            color: #00eeff;
+            background: rgba(0, 0, 0, 0.5);
+            text-shadow: 2px 2px 4px rgba(202, 221, 231, 0.5);
+        }
+
+        /* Style the heading */
+        .content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            animation: glowing 1.5s infinite;
+            color: #1ca3c5; /* Change glowing color */
+        }
+
+        /* Styles for the VR buttons */
+        .vr-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 6rem; /* Adjusted margin to move buttons down */
+        }
+
+        .vr-button {
+            font-size: 24px;
+            padding: 20px 40px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            animation: glowing 1.5s infinite;
+        }
+
+        .vr-button:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+        }
+
+        /* Glowing effect on hover */
+        @keyframes glowing {
+            0% {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+            50% {
+                text-shadow: 4px 4px 8px rgba(6, 73, 73, 0.7);
+            }
+            100% {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+        }
+    </style>
+</head>
+<body>
+  
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="earth.mp4" type="video/mp4">
+            <!-- Add additional video formats for cross-browser compatibility -->
+        </video>
+        <div class="content">
+            <h1>VISUALIZE SPACE USING VIRTUAL REALITY</h1>
+            <h2>VR EXPERIENCE FOR INTERIOR OF ISS</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dXGXHP-W_RU?si=OGtFelTXUJSV7j8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           <p>This video animation is animated and rendered in blender , is uploaded on youtube , for free vr 360 video hosting</p>
+           <div class="vr-buttons">
+            <a href="index.html"><button class="vr-button">EXPLORE MORE?</button> </a>
+        </div>
+        </div>
+        </div>
+    </div>
+   
+  
+
+</body>
+</html>
