@@ -54,6 +54,6 @@ Thank you for exploring the wonders of space with our VR Visualization Experienc
 screenshots
    - ![interface1](screenshots/Screenshot%202024-01-04%20114404.png)
    - ![interface1](screenshots/2.png)
-   - ![Crew Dragon Launch](screenshots/.png)
+   - ![Crew Dragon Launch](screenshots/3.png)
    - ![Life of the Hubble Telescope](screenshots/h.png)
    - ![Interior of ISS](screenshots/i.png)
