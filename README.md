@@ -40,12 +40,8 @@ System Requirements
 VR Headset (Optional)
 Compatible Web Browser
 Internet Connection
-Credits
-3D Animations: [Your Name/Team]
-Sketchfab Models: [Sketchfab Contributors]
-AI Audio: [AI Audio Technology/Provider]
-360° Animated Videos: [YouTube Channel]
-Webpage Development: [Web Developer/Team]
+
+
 Feedback
 We value your feedback! If you encounter any issues, have suggestions, or simply want to share your experience, please reach out to us at [shindevinayak233@email.com].
 
